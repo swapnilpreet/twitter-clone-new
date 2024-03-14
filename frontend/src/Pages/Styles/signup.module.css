@@ -1,0 +1,191 @@
+.logincontainer {
+  display: flex;
+  height: 100vh;
+  background-color: black;
+}
+
+.imgcontainer {
+  /* border: 1px solid red; */
+  width: 50%;
+  margin: auto;
+}
+.imginner {
+  margin: auto;
+  /* border: 1px solid rgb(228, 224, 224); */
+  width: 50%;
+  height: 400px;
+}
+.imginner img {
+  width: 100%;
+  height: 100%;
+}
+.formcontainer {
+  /* border: 1px solid red; */
+  width: 50%;
+  color: aliceblue;
+  margin: auto;
+}
+.Innerformlogo {
+  /* border: 1px solid red; */
+  width: 70px;
+  height: 70px;
+  display: none;
+}
+.Innerformlogo img {
+  height: 100%;
+  width: 100%;
+}
+
+
+.Innerform {
+  /* border: 1px solid white; */
+  text-align: left;
+}
+.Innerform h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+.Innerform h2 {
+    font-size: 30px;
+    font-weight: 800;
+  }
+.Innerformbtn {
+  /* border: 1px solid white; */
+  width: 42%;
+  padding: 10px;
+}
+.googlebtn {
+  height: 40px;
+  width: 100%;
+  border-radius: 20px;
+  color: rgb(128, 126, 126);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  font-size: 12px;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+}
+.signupbtn {
+    margin-top: 10px;
+  height: 40px;
+  width: 100%;
+  border-radius: 20px;
+  color: white;
+  background-color: #1d9bf0;
+  font-size: 12px;
+  border: none;
+}
+.signinbtn{
+    height: 40px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #060607;
+    font-size: 12px;
+    border: 1px solid  #1d9bf0;
+    color: azure;
+}
+.accbtn{
+  margin-top: 30px;
+}
+.accbtn button {
+  margin-top: 20px;
+}
+form{
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+   justify-content: center;
+   align-content: center;
+   margin-bottom: 20px;
+}
+.formModel{
+  text-align: center;
+}
+input{
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #1d9bf0;
+  color-scheme: dark;
+}
+form label{
+  color: #1d9bf0;
+}
+.pbtn{
+    margin-top: 10px;
+    font-size: 10px;
+}
+.pbtn span{
+    color: #1d9bf0;
+}
+
+/* mobile screen */
+
+@media screen and (max-width: 640px) {
+    .imgcontainer {
+      display: none;
+    }
+    .formcontainer{
+        width: 100%;
+        padding: 10px;
+    }
+    .Innerformbtn{
+        width: 75%;
+       
+    }
+    .formcontainer{
+        margin: 0%;
+    }
+    .Innerformlogo{
+      display: block;
+    }
+  }
+
+
+  /* tab screen */
+
+  @media screen and (min-width: 641px) and (max-width: 800px) {
+    .imgcontainer {
+      display: none;
+    }
+    .Innerformbtn{
+        width: 60%;
+    }
+    .formcontainer{
+        margin: 0%;
+        width: 100%;
+    }
+    .formcontainer{
+        padding: 20px;
+    }
+    .Innerformlogo{
+      display: block;
+    }
+  }
+
+  /* laptop screen */
+  @media screen and (min-width: 801px) and (max-width: 1024px) {
+    .imgcontainer{
+        display: none;
+    }
+    .Innerformbtn{
+        width: 40%;
+      
+    }
+    .formcontainer{
+        margin: 0%;
+        width: 100%;
+    
+    }
+    .formcontainer{
+        padding: 90px;
+    }
+    .Innerformlogo{
+      display: block;
+    }
+  }

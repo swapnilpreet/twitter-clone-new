@@ -1,0 +1,14 @@
+.EditIcon{
+ position: absolute;
+ top: 45%;
+ left: 40%;
+ border: 1px solid red;
+ display: none;
+}
+.HoverDiv{
+  position: relative;
+}
+
+.HoverDiv:hover .EditIcon{
+    display: inline;
+}

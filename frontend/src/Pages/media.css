@@ -1,0 +1,88 @@
+.Mediacontainer{
+   width: 100%;
+   margin-top: 10px;
+   padding-bottom: 10px;
+   border-bottom: 1px solid gray;
+}
+
+.Mediauserdiv{
+   color: aliceblue;
+   display: flex;
+   gap: 10px;
+   justify-content: space-between;
+   text-align: left;
+}
+.media{
+   width: 100%;
+   height: fit-content;
+   display: flex;
+   justify-content: center;
+}
+.mediavideodiv{
+   height:100%;
+   margin-top: 5px;
+   border-radius: 20px;
+}
+.video{
+   border: 1px solid rgb(207, 199, 199);
+   width: 100%;
+   height: 100%;
+   border-radius: 20px;
+}
+.mediaimg{
+   border: 1px solid rgb(207, 199, 199);
+   width: 100%;
+   height: 100%;
+   border-radius: 20px;
+}
+.mediaBottom{
+   margin-top: 10px;
+   display: flex;
+   color: aliceblue;
+   justify-content: center;
+}
+.usersinfo{
+   display: flex;
+   width: 90%;
+   justify-content: space-between;
+   align-items: center;
+}
+.mediaContain{
+   width: 80%;
+   margin: auto;
+}
+.mediaContain p{
+   color: aliceblue;
+   text-align: start;
+   max-height: 170px;
+   height: fit-content;
+   overflow: scroll;
+}
+
+.mediaIcons{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+.mediaIcons div{
+   display: flex;
+   font-size: x-small;
+   gap: 2px;
+   align-items: center;
+   color: lightgrey;
+}
+.iconsHoverComment:hover{
+   color: blue;
+}
+.iconsHoverreport:hover{
+   color: rgb(46, 223, 84);
+}
+.iconsHoveroutline:hover{
+   color: rgb(231, 30, 114);
+}
+.iconsHovergraph:hover{
+   color: rgb(238, 187, 46);
+}
+.iconsHoverbook:hover{
+   color: rgb(219, 52, 211);
+}
