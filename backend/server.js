@@ -20,17 +20,17 @@ app.use('/api/bookmarks',BookmarksRoute);
 app.use('/api/comment',CommentRoute);
 app.use('/api/payment',PaymentRoute);
 
-const path = require('path');
-__dirname=path.resolve();
+// const path = require('path');
+// __dirname=path.resolve();
 
 
 
-if(process.env.NODE_ENV === 'production'){
-    app.use(express.static(path.join(__dirname,'/client/build')));
-    app.get('*', (req,res)=>{
-        res.sendFile(path.join(__dirname,'client','build','index.html'));
-    });
-}
+// if(process.env.NODE_ENV === 'production'){
+//     app.use(express.static(path.join(__dirname,'/client/build')));
+//     app.get('*', (req,res)=>{
+//         res.sendFile(path.join(__dirname,'client','build','index.html'));
+//     });
+// }
 
 
 app.listen(port,()=>{
