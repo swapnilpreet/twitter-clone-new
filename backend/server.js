@@ -14,6 +14,10 @@ const PaymentRoute = require('./routes/payment.Routes.js');
 
 const port = process.env.PORT || 8080;
 
+app.get('/', (req, res) => {
+    res.send('hello world')
+})
+
 app.use('/api',PostRoute);
 app.use('/api/user',UserRoute);
 app.use('/api/bookmarks',BookmarksRoute);
