@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export const getpaymentOrder = async (amount)=>{
   try {
-      const response = await axios.post('/api/payment/order',amount);
+      const response = await axios.post('https://twitter-clone-new.onrender.com/api/payment/order',amount);
       return response.data;
   } catch (error) {
       return error.message;
@@ -11,7 +11,7 @@ export const getpaymentOrder = async (amount)=>{
 
 export const getpaymentVerify = async (payload)=>{
   try {
-      const response = await axios.post('/api/payment/verify',payload);
+      const response = await axios.post('https://twitter-clone-new.onrender.com/api/payment/verify',payload);
       return response.data;
   } catch (error) {
       return error.message;
