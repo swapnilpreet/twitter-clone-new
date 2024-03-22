@@ -1,5 +1,4 @@
 import axios from "axios";
-// import { axiosInstance } from "./axiosinstance";
 
 export const AddPost = async (payload) => {
   try {
